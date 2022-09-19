@@ -1,18 +1,25 @@
 {
-  "name": "olimpiadas",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "handlebars": "^4.7.7",
-    "mongoose": "^6.6.1"
-  }
+    "name": "olimpiadas",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src",
+        "start": "node src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "express-handlebars": "^6.0.6",
+        "handlebars": "^4.7.7",
+        "mongoose": "^6.6.1",
+        "request": "^2.88.2",
+        "timeago.js": "^4.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
