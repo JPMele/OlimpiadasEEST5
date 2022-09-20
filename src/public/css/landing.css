@@ -2,7 +2,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 * {
     line-height: 1.5;
     margin: 0;
@@ -80,12 +79,22 @@ html {
 .nav__li:hover {
     background-color: #fcfffc2a;
 }
-
+.nav__li.active {
+    background-color: #fcfffc2a;
+}
 .nav__a {
     text-decoration: none;
     color: var(--textColor1);
     /* color:var(--textColor2); */
     font-weight: 500;
+}
+.bg-green-500{
+    background-color: var(--colorPrincipal)!important;
+}
+
+
+.bg-green-700{
+    background-color: var(--colorPrincipal)!important;
 }
 
 .main {
@@ -567,4 +576,15 @@ html {
     color: var(--colorSecundario);
     display: inline!important;
     border: none!important;
+}
+.seccion__boton.descarga.login.logueado{
+    display: flex!important;
+    place-content: space-between!important;
+}
+.logueado > .nav__a
+{
+    text-decoration: none;
+    color: var(--textColor1);
+    /* color:var(--textColor2); */
+    font-weight: 500;
 }

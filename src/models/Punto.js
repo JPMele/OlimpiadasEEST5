@@ -1,6 +1,5 @@
  const { Schema, model } = require("mongoose")
  const puntoSchema = new Schema({
-     id: Number,
      orden: Number,
      descripcionDeObjeto: String,
      descripcionDeCiego: String,
